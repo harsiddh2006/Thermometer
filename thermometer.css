@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "mulish", sans-serif;
+}
+
+.outerdiv {
+    width: 100vw;
+    height: 100vh;
+    background: #444;
+    display: grid;
+    place-items: center;
+}
+
+.innerdiv {
+    width: 80vw;
+    height: 70vh;
+    display: grid;
+    place-items: center;
+}
+
+.main-heading{
+    padding: 30px;
+    color: #fff;
+    text-shadow: 0 1px 8px rgb(red, green, blue,alpha);
+    font-size: 130px;
+}
